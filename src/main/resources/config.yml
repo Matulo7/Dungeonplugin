@@ -1,0 +1,46 @@
+prefix: "&8[&6Dungeon&8] &r"
+
+spravy:
+  dungeon-vytvoreny: "&aDungeon &e{name} &bol uspesne vytvoreny!"
+  dungeon-zmazany: "&cDungeon &e{name} &cbyl zmazany!"
+  dungeon-neexistuje: "&cTento dungeon neexistuje!"
+  dungeon-spusteny: "&aSpustam dungeon &e{name}&a!"
+  dungeon-dokonceny: "&6Dungeon dokonceny! Cas: &e{time} &6| Skore: &e{score}"
+  dungeon-cooldown: "&cMusis pockat &e{time} &cpred dalsim dungeon!"
+  dungeon-plny: "&cTento dungeon je plny!"
+  
+  party-vytvorena: "&aParty bola vytvorena!"
+  party-uz-mas: "&cUz mas party!"
+  party-pozvanка: "&e{player} &ata pozva do party! Pouzi &b/party join {player} &ana pripojenie."
+  party-pripojen: "&aPripojen do party hráča &e{player}&a!"
+  party-odisiel: "&cOpustil si party!"
+  party-plna: "&cParty je plna! (Max 4 hraci)"
+  party-neexistuje: "&cTato party neexistuje!"
+  party-uz-v-party: "&cUz si v party!"
+  party-info: "&6Party hráča &e{leader}&6:"
+  party-clen: "&7- &e{player}"
+  
+  mob-spawn: "&cPozor! Objavili sa nepriatelia!"
+  boss-spawn: "&4&lBOSS SA OBJAVIL! Pripravte sa!"
+  boss-zabjty: "&6Boss bol porazeny! Skvelá práca!"
+  kluc-drop: "&eNasli ste kluc! Pouzite ho na otvorenie dalsich dveri."
+  dvere-otvorene: "&aDvere su otvorene!"
+  dvere-zamknute: "&cTieto dvere su zamknute! Potrebujete kluc."
+  
+  hrac-zomrel: "&cZomrel si v dungeone! Bol si teleportovany spat."
+  
+  editor-rezim: "&aVstupil si do editor rezimu pre dungeon &e{name}&a!"
+  editor-spawn-nastaveny: "&aSpawn bod nastaveny!"
+  editor-boss-nastaveny: "&aBoss spawn bod nastaveny!"
+  editor-dvere-nastavene: "&aDvere nastavene!"
+  editor-chest-nastaveny: "&aChest nastaveny!"
+  editor-mob-pridany: "&aMob &e{mob} &apridany do oblasti!"
+  editor-ulozeny: "&aDungeon &e{name} &bol ulozeny!"
+  
+  prikaz-iba-hrac: "&cTento prikaz moze pouzivat iba hrac!"
+  nedostatok-prav: "&cNemas dostatocne prava!"
+  nespravne-pouzitie: "&cNespravne pouzitie! "
+
+cooldown: 14400 # 4 hodiny v sekundach
+max-party: 4
+instancia-prefix: "dungeon_inst_"

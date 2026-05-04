@@ -1,8 +1,3 @@
-Teraz skopíruj obsah súboru **DungeonPlugin.java** do toho veľkého textového poľa dole. 
-
-Tu je obsah:
-
-```java
 package eu.server.dungeon;
 
 import eu.server.dungeon.commands.DungeonCommand;
@@ -75,6 +70,3 @@ public class DungeonPlugin extends JavaPlugin {
         return text.replace("&", "\u00a7");
     }
 }
-```
-
-Skopíruj to, vlož do poľa a klikni **Commit changes**! 🎮

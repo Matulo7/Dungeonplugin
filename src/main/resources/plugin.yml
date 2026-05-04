@@ -1,0 +1,22 @@
+name: DungeonPlugin
+version: '${project.version}'
+main: eu.server.dungeon.DungeonPlugin
+api-version: '1.21'
+softdepend:
+  - MythicMobs
+
+commands:
+  dungeon:
+    description: Hlavny prikaz pre dungeony
+    usage: /dungeon
+  party:
+    description: Party system
+    usage: /party <create|invite|join|leave|info>
+
+permissions:
+  dungeon.admin:
+    description: Admin prava pre dungeony
+    default: op
+  dungeon.play:
+    description: Prava na hranie dungeonu
+    default: true
